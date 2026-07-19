@@ -6,7 +6,7 @@ A time series forecasting project analysing and predicting electricity demand in
 
 ## Overview
 
-This project explores historical electricity demand patterns and implements statistical time series forecasting models to project future demand, as an independent exercise to build hands-on experience with Australian energy market data ahead of a move to Melbourne.
+This project explores historical electricity demand patterns and implements statistical time series forecasting models to project future demand.
 
 The analysis covers:
 
@@ -24,7 +24,7 @@ Historical electricity demand data was sourced from AEMO's publicly available NE
 
 Built in R using Quarto. Key packages:
 
-- `fpp3` (tidyverts ecosystem — includes `tsibble`, `fable`, `feasts`) and `forecast`, for time series modelling and forecasting
+- `fpp3` (tidyverts ecosystem, includes `tsibble`, `fable`, `feasts`) and `forecast`, for time series modelling and forecasting
 - `dplyr`, `stringr`, `lubridate`, `janitor`, for data cleaning and wrangling
 - `ggplot2`, `hexbin`, for visualisation
 
